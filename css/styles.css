@@ -1,1 +1,151 @@
+/* =====================================================
+   HexPro Website
+   Sprint 1.2
+===================================================== */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #2b2b2b;
+
+    background: #f7f9fb;
+
+    line-height: 1.7;
+
+}
+
+.container{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+header{
+
+    background:#0B1F33;
+
+    color:white;
+
+    padding:25px 0;
+
+}
+
+header .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:30px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.hero{
+
+    padding:120px 0;
+
+    text-align:center;
+
+}
+
+.hero h2{
+
+    font-size:54px;
+
+    color:#0B1F33;
+
+}
+
+.hero h3{
+
+    color:#1F4E79;
+
+    margin-top:10px;
+
+}
+
+.hero p{
+
+    max-width:700px;
+
+    margin:40px auto;
+
+}
+
+.button{
+
+    display:inline-block;
+
+    padding:14px 36px;
+
+    background:#00A6A6;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:6px;
+
+}
+
+section{
+
+    padding:90px 0;
+
+}
+
+section:nth-child(even){
+
+    background:white;
+
+}
+
+h2{
+
+    margin-bottom:30px;
+
+    color:#0B1F33;
+
+}
+
+footer{
+
+    background:#0B1F33;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+}
